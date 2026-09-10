@@ -37,6 +37,8 @@
                         <label class="text-white-50 small mb-2">Role / Jabatan <span class="text-danger">*</span></label>
                         <select name="role" class="form-select form-control-dark @error('role') is-invalid @enderror" required>
                             <option value="">-- Pilih Jabatan --</option>
+                            <option value="CEO" {{ old('role') == 'CEO' ? 'selected' : '' }}>CEO</option>
+                            <option value="Content Creator" {{ old('role') == 'Content Creator' ? 'selected' : '' }}>Content Creator</option>
                             <option value="Robotics Modular" {{ old('role') == 'Robotics Modular' ? 'selected' : '' }}>Robotics Modular</option>
                             <option value="Robotics Electronic" {{ old('role') == 'Robotics Electronic' ? 'selected' : '' }}>Robotics Electronic</option>
                             <option value="Programming" {{ old('role') == 'Programming' ? 'selected' : '' }}>Programming</option>

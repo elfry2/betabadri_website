@@ -9,10 +9,92 @@
     <div class="program-bg-overlay"></div>
     <div class="container position-relative z-2">
         <span class="badge bg-cyan-soft text-cyan px-3 py-2 rounded-pill mb-3 fw-bold border border-info" data-aos="fade-down">{{ __('Expert Instructors') }}</span>
-        <h1 class="display-3 fw-bold text-white mb-3" data-aos="fade-up">{!! __('Meet The Masters') !!}</h1>
+        <h1 class="display-3 fw-bold text-white mb-3" data-aos="fade-up">{!! __('Our Family') !!}</h1>
         <p class="lead text-white-50 mx-auto" style="max-width: 700px;" data-aos="fade-up" data-aos-delay="100">
             {{ __('Mentor Hero Desc') }}
         </p>
+    </div>
+</section>
+
+{{-- CEO WELCOME SPEECH SECTION --}}
+<section class="py-5 ceo-speech-section position-relative overflow-hidden">
+    <div class="ceo-glow-orb top-0 end-0"></div>
+    <div class="glow-bg-left position-absolute bottom-0 start-0"></div>
+
+    <div class="container py-lg-4 position-relative z-2">
+        <div class="ceo-speech-card p-4 p-md-5" data-aos="fade-up">
+            <div class="row g-4 g-lg-5 align-items-center">
+                {{-- CEO Photo Column --}}
+                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="ceo-portrait-frame">
+                        <img src="{{ asset('img/ceo.jpg') }}" alt="CEO Beta Badri Education" class="img-fluid d-block">
+                        <div class="ceo-portrait-overlay">
+                            <span class="badge bg-cyan-soft text-cyan border border-info rounded-pill px-3 py-1 mb-2 fw-semibold small">
+                                <i class="fas fa-crown me-1"></i> {{ __('Leadership') }}
+                            </span>
+                            <h4 class="text-white fw-bold mb-1">{{ __('CEO Name') }}</h4>
+                            <p class="text-white-50 small mb-0">{{ __('CEO Title') }}</p>
+                        </div>
+                    </div>
+                </div>
+
+                {{-- Speech Content Column --}}
+                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="150">
+                    <div class="ps-lg-2">
+                        <div class="d-inline-flex align-items-center gap-2 mb-3">
+                            <span class="badge bg-cyan-soft text-cyan px-3 py-2 rounded-pill fw-bold border border-info">
+                                <i class="fas fa-quote-left me-1"></i> {{ __('Welcome Speech') }}
+                            </span>
+                            <span class="text-white-50 small"><i class="fas fa-certificate text-warning me-1"></i> {{ __('Beta Badri Education') }}</span>
+                        </div>
+
+                        <h2 class="display-6 fw-bold text-white mb-4">
+                            {!! __('Speech From CEO') !!}
+                        </h2>
+
+                        <div class="ceo-quote-box mb-4">
+                            <p class="fst-italic text-info mb-0 fw-medium">
+                                {{ __('CEO Speech Quote') }}
+                            </p>
+                        </div>
+
+                        <div class="ceo-speech-text mb-4">
+                            <p>
+                                {{ __('CEO Speech P1') }}
+                            </p>
+                            <p>
+                                {{ __('CEO Speech P2') }}
+                            </p>
+                            <p>
+                                {{ __('CEO Speech P3') }}
+                            </p>
+                        </div>
+
+                        <div class="ceo-signature-block d-flex flex-wrap align-items-center justify-content-between gap-3">
+                            <div class="d-flex align-items-center gap-3">
+                                <div class="rounded-circle p-2 bg-primary bg-opacity-10 border border-primary border-opacity-25 text-cyan d-flex align-items-center justify-content-center" style="width: 48px; height: 48px;">
+                                    <i class="fas fa-signature fa-lg"></i>
+                                </div>
+                                <div>
+                                    <h6 class="text-white fw-bold mb-0">{{ __('CEO Name') }}</h6>
+                                    <small class="text-cyan">{{ __('CEO Title') }}</small>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2">
+                                <div class="ceo-stat-pill text-center">
+                                    <span class="d-block text-white fw-bold small">700+</span>
+                                    <span class="text-white-50" style="font-size: 0.75rem;">{{ __('Siswa') }}</span>
+                                </div>
+                                <div class="ceo-stat-pill text-center">
+                                    <span class="d-block text-white fw-bold small">100%</span>
+                                    <span class="text-white-50" style="font-size: 0.75rem;">Hands-on</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -20,6 +102,7 @@
     <div class="glow-bg-left position-absolute top-0 start-0"></div>
 
     <div class="container py-5">
+        {{--
         <div class="row mb-5 justify-content-center" data-aos="fade-up">
             <div class="col-md-10 text-center">
                 <div class="d-inline-flex flex-wrap justify-content-center gap-2 p-1 rounded-pill bg-black-pearl border border-secondary" id="mentor-filters">
@@ -31,8 +114,9 @@
                 </div>
             </div>
         </div>
+        --}}
 
-        <div class="row g-4" id="mentor-grid">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4" id="mentor-grid">
             @forelse($mentors as $mentor)
             @php
                 $role = strtolower($mentor->role);
@@ -42,9 +126,10 @@
                 if (str_contains($role, 'modular') || str_contains($role, 'lego')) $classes .= 'modular ';
                 if (str_contains($role, 'electro') || str_contains($role, 'iot') || str_contains($role, 'arduino')) $classes .= 'electronic ';
                 if (str_contains($role, 'robot') && !str_contains($role, 'modular') && !str_contains($role, 'electro')) $classes .= 'modular electronic ';
+                if (str_contains($role, 'content')) $classes .= 'content';
             @endphp
 
-            <div class="col-lg-3 col-md-6 mentor-item {{ $classes }}" data-aos="fade-up">
+            <div class="col mentor-item {{ $classes }}" data-aos="fade-up">
                 <div class="mentor-card h-100">
                     <div class="mentor-img-wrapper position-relative overflow-hidden bg-dark">
                         @if($mentor->image)
@@ -56,11 +141,11 @@
                         @endif
                     </div>
 
-                    <div class="card-body p-4 text-center">
-                        <h5 class="text-white fw-bold mb-1">{{ $mentor->name }}</h5>
-                        <p class="text-cyan small mb-3 text-uppercase letter-spacing-1 fw-bold">{{ $mentor->role }}</p>
+                    <div class="card-body p-3 p-xl-4 text-center">
+                        <h5 class="text-white fw-bold mb-1 fs-6">{{ $mentor->name }}</h5>
+                        <p class="text-cyan small mb-3 text-uppercase letter-spacing-1 fw-bold" style="font-size: 0.75rem;">{{ $mentor->role }}</p>
                         <div class="divider-small mx-auto mb-3"></div>
-                        <div class="d-flex flex-wrap justify-content-center gap-2">
+                        <div class="d-flex flex-wrap justify-content-center gap-1">
                             @if(str_contains($classes, 'game'))
                                 <span class="skill-badge">Unity</span> <span class="skill-badge">C#</span>
                             @elseif(str_contains($classes, 'programming'))
@@ -69,6 +154,8 @@
                                 <span class="skill-badge">IoT</span> <span class="skill-badge">Arduino</span>
                             @elseif(str_contains($classes, 'modular'))
                                 <span class="skill-badge">Lego</span> <span class="skill-badge">Logic</span>
+                            @elseif(str_contains($classes, 'content'))
+                                <span class="skill-badge">Research</span> <span class="skill-badge">Creativity</span>
                             @else
                                 <span class="skill-badge">{{ __('Expert') }}</span> <span class="skill-badge">{{ __('Teacher') }}</span>
                             @endif
@@ -154,16 +241,24 @@ document.addEventListener("DOMContentLoaded", function() {
 <style>
     .mentor-img-wrapper {
         width: 100%;
-        height: 300px;
+        height: 270px;
         background-color: #0f172a;
     }
     .transition-scale { transition: transform 0.5s ease; }
     .mentor-card:hover .transition-scale { transform: scale(1.05); }
 
     .skill-badge {
-        font-size: 0.7rem; padding: 4px 12px; border-radius: 20px;
+        font-size: 0.7rem; padding: 4px 10px; border-radius: 20px;
         background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);
         color: #94a3b8; display: inline-block;
+    }
+
+    @media (min-width: 992px) {
+        #mentor-grid.row-cols-lg-5 > .col,
+        #mentor-grid.row-cols-lg-5 > .mentor-item {
+            flex: 0 0 auto;
+            width: 20%;
+        }
     }
 </style>
 

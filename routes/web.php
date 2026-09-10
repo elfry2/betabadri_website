@@ -38,7 +38,8 @@ use App\Http\Controllers\Mentor\GradeController;
 |--------------------------------------------------------------------------
 */
 Route::get('/', [PublicController::class, 'index'])->name('home');
-Route::get('/page/mentor', [PublicController::class, 'team'])->name('public.mentor');
+Route::get('/page/family', [PublicController::class, 'team'])->name('public.family');
+Route::redirect('/page/mentor', '/page/family', 301);
 Route::get('/page/galeri', [PublicController::class, 'gallery'])->name('public.gallery');
 Route::get('/page/testimonials', [PublicController::class, 'testimonials'])->name('public.testimonials');
 

@@ -2,6 +2,7 @@
     "Beranda": "Beranda",
     "Program": "Program",
     "Mentor": "Mentor",
+    "Family": "Family",
     "Visi": "Visi",
     "Galeri": "Galeri",
     "Kontak": "Kontak",
@@ -11,7 +12,6 @@
     "Solusi": "Solusi",
     "Ikuti Kami": "Ikuti Kami",
     "Program Kami": "Program Kami",
-
     "Membangun Masa Depan Teknologi": "Membangun <span class='text-gradient'>Masa Depan</span> Teknologi",
     "Kuasai keahlian robotik dan pemrograman bersama mentor expert dengan kurikulum standar industri internasional.": "Kuasai keahlian robotik dan pemrograman bersama mentor expert <br class='d-none d-md-block'> dengan kurikulum standar industri internasional.",
     "Mulai Belajar": "Mulai Belajar",
@@ -20,7 +20,6 @@
     "Lihat Program": "Lihat Program",
     "Siapkan Karir Di Era Digital 4.0": "Siapkan Karir <br> Di <span class='text-gradient'>Era Digital 4.0</span>",
     "Hubungi Kami": "Hubungi Kami",
-
     "Alumni Digital": "Alumni Digital",
     "Mengenal Beta Badri": "Mengenal <span class='text-gradient'>Beta Badri</span>",
     "Beta Badri bukan sekadar tempat kursus. Kami adalah Ekosistem Teknologi yang dirancang untuk membentuk pola pikir inovatif bagi generasi muda.": "Beta Badri bukan sekadar tempat kursus. Kami adalah <span class='text-white fw-semibold'>Ekosistem Teknologi</span> yang dirancang untuk membentuk pola pikir inovatif bagi generasi muda.",
@@ -29,7 +28,6 @@
     "Mempersiapkan talenta lokal untuk bersaing di panggung teknologi internasional.": "Mempersiapkan talenta lokal untuk bersaing di panggung teknologi internasional.",
     "Metode Hands-On": "Metode Hands-On",
     "Belajar lewat praktek langsung menggunakan perangkat teknologi standar industri.": "Belajar lewat praktek langsung menggunakan perangkat teknologi standar industri.",
-
     "Kurikulum Kami": "Kurikulum Kami",
     "Jalur Belajar Masa Depan": "Jalur Belajar <span class='text-gradient-blue'>Masa Depan</span>",
     "Kami merancang kurikulum bertingkat untuk membentuk ahli teknologi, mulai dari dasar logika hingga keamanan siber tingkat lanjut.": "Kami merancang kurikulum bertingkat untuk membentuk ahli teknologi, mulai dari dasar logika hingga keamanan siber tingkat lanjut.",
@@ -48,7 +46,6 @@
     "SMA/Mahasiswa": "SMA/Mahasiswa",
     "Game Development": "Game Development",
     "Menciptakan dunia virtual sendiri dengan belajar Unity, Unreal Engine, dan desain aset 3D.": "Menciptakan dunia virtual sendiri dengan belajar Unity, Unreal Engine, dan desain aset 3D.",
-
     "Kenapa Memilih Kami?": "Kenapa Memilih Kami?",
     "Kami Mencetak Innovator Digital": "Kami Mencetak <br><span class='text-gradient-blue'>Innovator Digital</span>",
     "Kurikulum standar industri, mentor praktisi, dan ekosistem belajar yang mendukung siswa untuk tidak sekadar \"tahu\", tapi \"mampu menciptakan\".": "Kurikulum standar industri, mentor praktisi, dan ekosistem belajar yang mendukung siswa untuk tidak sekadar \"tahu\", tapi \"mampu menciptakan\".",
@@ -65,7 +62,6 @@
     "Dibimbing langsung oleh programmer & engineer berpengalaman yang mengerti kebutuhan industri teknologi saat ini.": "Dibimbing langsung oleh programmer & engineer berpengalaman yang mengerti kebutuhan industri teknologi saat ini.",
     "Kompetisi & Prestasi": "Kompetisi & Prestasi",
     "Kami rutin mengirim siswa ke ajang kompetisi robotik & coding nasional maupun internasional (Young Coder Cup).": "Kami rutin mengirim siswa ke ajang kompetisi robotik & coding nasional maupun internasional (Young Coder Cup).",
-
     "How We Teach": "Cara Kami Mengajar",
     "Metode <span class=\"text-gradient-blue\">Pembelajaran</span>": "Metode <span class=\"text-gradient-blue\">Pembelajaran</span>",
     "Kurikulum Terkini": "Kurikulum Terkini",
@@ -76,7 +72,6 @@
     "Learning by doing. Setiap siswa wajib menyelesaikan project nyata (Aplikasi/Robot) di setiap akhir sesi pembelajaran.": "Learning by doing. Setiap siswa wajib menyelesaikan project nyata (Aplikasi/Robot) di setiap akhir sesi pembelajaran.",
     "Pendekatan Individu": "Pendekatan Individu",
     "Kelas kecil dengan fokus pada kecepatan belajar unik setiap siswa, memastikan tidak ada yang tertinggal.": "Kelas kecil dengan fokus pada kecepatan belajar unik setiap siswa, memastikan tidak ada yang tertinggal.",
-
     "// GALLERY KEGIATAN": "// GALLERY KEGIATAN",
     "Apa saja yang Kami Lakukan <br> <span class=\"text-gradient\">Di Kelas Betabadri?</span>": "Apa saja yang Kami Lakukan <br> <span class=\"text-gradient\">Di Kelas Betabadri?</span>",
     "Intip keseruan interaksi belajar mengajar robotik dan coding di berbagai mitra sekolah kami.": "Intip keseruan interaksi belajar mengajar robotik dan coding di berbagai mitra sekolah kami.",
@@ -86,7 +81,6 @@
     "Robotik Elektronika - Project Traffic Light": "Robotik Elektronika - Project Traffic Light",
     "Robotik Elektronika - Robotic Line Follower": "Robotik Elektronika - Robotic Line Follower",
     "Programming - Setup Laravel": "Programming - Setup Laravel",
-
     "How to Join": "Cara Bergabung",
     "4 Langkah <span class=\"text-gradient-blue\">Mudah Bergabung</span>": "4 Langkah <span class=\"text-gradient-blue\">Mudah Bergabung</span>",
     "Daftar & Konsultasi": "Daftar & Konsultasi",
@@ -97,7 +91,6 @@
     "Siswa akan dinilai kemampuannya untuk penempatan level kelas yang paling sesuai.": "Siswa akan dinilai kemampuannya untuk penempatan level kelas yang paling sesuai.",
     "Start Learning": "Start Learning",
     "Selamat! Anak Anda siap memulai petualangan menjadi pencipta teknologi masa depan.": "Selamat! Anak Anda siap memulai petualangan menjadi pencipta teknologi masa depan.",
-
     "Testimonials": "Testimonial",
     "Kata Mereka <span class=\"text-gradient-blue\">Tentang Kami</span>": "Kata Mereka <span class=\"text-gradient-blue\">Tentang Kami</span>",
     "Baca Selengkapnya": "Baca Selengkapnya",
@@ -106,7 +99,6 @@
     "Siswa": "Siswa",
     "Sekolah": "Pihak Sekolah",
     "Orang Tua": "Orang Tua",
-
     "Tanya Jawab": "Tanya Jawab",
     "Sering <span class=\"text-gradient-blue\">Ditanyakan</span>": "Sering <span class=\"text-gradient-blue\">Ditanyakan</span>",
     "Apakah pemula tanpa pengalaman coding bisa bergabung?": "Apakah pemula tanpa pengalaman coding bisa bergabung?",
@@ -117,15 +109,12 @@
     "Ya, setiap siswa yang menyelesaikan satu level materi dan lulus ujian project akhir akan mendapatkan <strong>Sertifikat Kompetensi</strong> resmi dari Beta Badri Education.": "Ya, setiap siswa yang menyelesaikan satu level materi dan lulus ujian project akhir akan mendapatkan <strong>Sertifikat Kompetensi</strong> resmi dari Beta Badri Education.",
     "Apakah tersedia kelas online?": "Apakah tersedia kelas online?",
     "Kami menyediakan opsi kelas <strong>Hybrid</strong>. Namun untuk hasil maksimal, terutama kelas Robotik, kami sangat menyarankan pertemuan tatap muka (Offline) agar praktek lebih optimal.": "Kami menyediakan opsi kelas <strong>Hybrid</strong>. Namun untuk hasil maksimal, terutama kelas Robotik, kami sangat menyarankan pertemuan tatap muka (Offline) agar praktek lebih optimal.",
-
     "Trusted Partners": "Mitra Terpercaya",
     "Berkolaborasi dengan <span class=\"text-gradient-blue\">Instansi Terbaik</span>": "Berkolaborasi dengan <span class=\"text-gradient-blue\">Instansi Terbaik</span>",
-
     "Siap Mencetak <span class=\"text-warning\">Prestasi Digital?</span>": "Siap Mencetak <span class=\"text-warning\">Prestasi Digital?</span>",
     "Jangan biarkan anak hanya menjadi penikmat teknologi. Bergabunglah bersama 700+ siswa lainnya dan mulai perjalanan menjadi pencipta teknologi hari ini.": "Jangan biarkan anak hanya menjadi penikmat teknologi. Bergabunglah bersama 700+ siswa lainnya dan mulai perjalanan menjadi pencipta teknologi hari ini.",
     "Daftar Konsultasi Gratis": "Daftar Konsultasi Gratis",
     "Lihat Jadwal Kelas": "Lihat Jadwal Kelas",
-
     "Choose Your Future Path": "Pilih Jalur Masa Depanmu",
     "Curriculum Hero Desc": "Kami menyediakan kurikulum teknologi terlengkap untuk segala usia. Mulai dari merakit robot Lego, menciptakan alat IoT, hingga mengembangkan aplikasi digital.",
     "For Beginners & kids": "Untuk Pemula & Anak-anak",
@@ -165,7 +154,6 @@
     "Chat Our Consultant": "Chat Konsultan Kami",
     "View Details": "Lihat Detail",
     "Age": "Usia",
-
     "Modular Program Title": "Program Robotic Modular - Beta Badri Education",
     "Best for Kids & Beginners": "Terbaik untuk Anak & Pemula",
     "Fun Learning Modular": "Belajar Seru <br><span class=\"text-gradient-blue\">Robotik Modular</span>",
@@ -192,7 +180,6 @@
     "Modular Beginner Desc": "Belajar dasar sensor, kontrol gerak dan desain robotik.",
     "Modular Intermediate Desc": "Fokus pemrograman & sensor untuk deteksi dan manipulasi.",
     "Modular Advanced Desc": "Fokus pemograman & sensor untuk deteksi dan manipulasi tingkat lanjut.",
-
     "Electronic Program Title": "Program Robotic Elektronika - Beta Badri Education",
     "Mastering Electronics": "Kuasai <br><span class=\"text-gradient-blue\">Elektronika & IoT</span>",
     "Electronic Hero Desc": "Tingkatkan skill ke level engineer sesungguhnya. Belajar merakit sirkuit, menyolder komponen, dan memprogram otak robot (Microcontroller) dengan bahasa C++.",
@@ -214,7 +201,6 @@
     "Register Consultation": "Daftar Konsultasi",
     "3 Months": "3 Bulan",
     "6 Months": "6 Bulan",
-
     "Programming Program Title": "Program Programming - Beta Badri Education",
     "Professional Coding Class": "Kelas <br><span class=\"text-gradient-blue\">Coding Profesional</span>",
     "Programming Hero Desc": "Kuasai bahasa masa depan. Mulai dari logika pemrograman visual yang menyenangkan hingga membangun Website, Aplikasi Mobile, dan Game sendiri.",
@@ -239,7 +225,6 @@
     "Personal Portfolio": "Portofolio Pribadi",
     "E-Commerce / App": "E-Commerce / Aplikasi",
     "3D Adventure Game": "Game Petualangan 3D",
-
     "Game Dev Title": "Program Game Development - Beta Badri Education",
     "Build Your Dream Games": "Bangun <br><span class=\"text-gradient-blue\">Game Impianmu</span>",
     "Game Hero Desc": "Jangan hanya menjadi pemain, jadilah pembuatnya! Pelajari logika algoritma, desain karakter, hingga mempublikasikan game ciptaanmu sendiri ke platform dunia.",
@@ -261,10 +246,19 @@
     "Realize Dream Desc": "Bergabunglah dengan komunitas developer muda kami. Belajar, berkreasi, dan publikasikan karyamu.",
     "Daftar Trial Class": "Daftar Kelas Uji Coba",
     "Konsultasi Program": "Konsultasi Program",
-
     "Expert Instructors": "Instruktur Ahli",
-    "Meet The Masters": "Kenali Para <span class=\"text-gradient-blue\">Master</span>",
-    "Mentor Hero Desc": "Belajar langsung dari praktisi industri dan edukator berpengalaman.",
+    "Our Family": "Keluarga <span class=\"text-gradient-blue\">Kami</span>",
+    "Meet The Masters": "Keluarga <span class=\"text-gradient-blue\">Kami</span>",
+    "Mentor Hero Desc": "Temui praktisi industri dan edukator berpengalaman kami",
+    "Leadership": "Kepemimpinan",
+    "Welcome Speech": "Kata Sambutan",
+    "Speech From CEO": "Sambutan dari <span class=\"text-gradient-blue\">CEO Kami</span>",
+    "CEO Speech Quote": "\"Misi kami bukan hanya sekadar mengajarkan coding dan robotika, melainkan menyalakan lentera inovasi, rasa ingin tahu, dan kepercayaan diri pada setiap anak.\"",
+    "CEO Speech P1": "Selamat datang di Beta Badri Education. Ketika kami mengawali perjalanan ini, kami berangkat dengan sebuah tujuan tulus: menjembatani imajinasi dan penguasaan teknologi mutakhir bagi generasi muda di Pekanbaru dan Indonesia.",
+    "CEO Speech P2": "Kami percaya bahwa pendidikan teknologi bukan sekadar menghafal sintaks atau mengikuti modul. Ini tentang mengasah pola pikir kritis, memecahkan permasalahan nyata, dan menciptakan solusi yang berdampak. Di kelas kami, setiap tantangan adalah proses bertumbuh, dan setiap karya adalah bukti potensi tak terbatas anak-anak kita.",
+    "CEO Speech P3": "Bagi para siswa, orang tua, dan seluruh pendidik kami: Anda semua adalah detak jantung dari komunitas ini. Beta Badri bukan sekadar tempat belajar—ini adalah sebuah keluarga besar tempat bertumbuhnya para inovator masa depan. Terima kasih telah melangkah bersama kami.",
+    "CEO Name": "Yousef Mohammed",
+    "CEO Title": "Founder & Chief Executive Officer",
     "All": "Semua",
     "Want to Join as an Instructor?": "Ingin Bergabung Menjadi Pengajar?",
     "Join Us Desc": "Jika kamu memiliki passion di bidang teknologi dan pendidikan, mari berkarya bersama kami.",
@@ -273,7 +267,6 @@
     "No mentor data displayed": "Belum ada data mentor yang ditampilkan.",
     "Teacher": "Pengajar",
     "Expert": "Ahli",
-
     "Our Philosophy": "Filosofi Kami",
     "Vision & Mission": "Visi & <span class=\"text-gradient-blue\">Misi</span>",
     "Vision Hero Desc": "Komitmen kami dalam menghadirkan pendidikan berbasis teknologi yang inklusif dan menyenangkan di Pekanbaru dan sekitarnya.",
@@ -296,7 +289,6 @@
     "Ready to Collaborate?": "Siap Berkolaborasi?",
     "Collaborate Desc": "Bersama kita bangun ekosistem pendidikan teknologi terbaik di Riau.",
     "Contact Us": "Hubungi Kami",
-
     "Our Documentation": "Dokumentasi Kami",
     "Gallery Hero Title": "Galeri <span class=\"text-gradient-blue\">Aktivitas</span>",
     "Gallery Hero Desc": "Intip keseruan belajar, kompetisi, dan momen berharga para siswa Beta Badri Education.",
@@ -307,7 +299,6 @@
     "to": "sampai",
     "of": "dari",
     "results": "hasil",
-
     "Contact Hero Desc": "Punya pertanyaan tentang kurikulum, biaya, atau jadwal kelas? Tim kami siap membantu Anda via WhatsApp atau Email.",
     "Contact Information": "Informasi Kontak",
     "Contact Info Desc": "Jangan ragu untuk berkunjung ke center kami atau menghubungi kami melalui saluran digital berikut.",
@@ -323,7 +314,6 @@
     "Write your message here": "Tulis pesan Anda disini...",
     "Reply via WA": "Kami akan membalas via WhatsApp!",
     "Send to WhatsApp": "Kirim ke WhatsApp",
-
     "Join Our Team": "Bergabunglah dengan <span class=\"text-gradient-blue\">Tim Kami</span>",
     "Career Hero Desc": "Kami mencari individu berbakat dan bersemangat untuk menjadi mentor teknologi masa depan.",
     "Available Positions": "Posisi Tersedia",

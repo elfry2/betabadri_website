@@ -70,7 +70,7 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item"><a class="nav-link" href="{{ url('/page/mentor') }}">{{ __('Mentor') }}</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('public.family') }}">{{ __('Family') }}</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/page/visi') }}">{{ __('Visi') }}</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/page/galeri') }}">{{ __('Galeri') }}</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ url('/page/kontak') }}">{{ __('Kontak') }}</a></li>
