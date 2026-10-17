@@ -52,6 +52,13 @@
                     <td>
                         <div class="fw-bold text-white">{{ $item->name }}</div>
                         <div class="text-cyan small fw-bold text-uppercase ls-1">{{ $item->role }}</div>
+                        @if(!empty($item->skills))
+                            <div class="mt-1 d-flex flex-wrap gap-1">
+                                @foreach(array_filter(array_map('trim', explode(',', $item->skills))) as $skill)
+                                    <span class="badge bg-secondary bg-opacity-25 text-white-50 border border-secondary border-opacity-25" style="font-size: 0.65rem;">{{ $skill }}</span>
+                                @endforeach
+                            </div>
+                        @endif
                     </td>
 
                     <td class="text-center">

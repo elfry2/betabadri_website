@@ -29,9 +29,9 @@
                     <div class="ceo-portrait-frame">
                         <img src="{{ asset('img/ceo.jpg') }}" alt="CEO Beta Badri Education" class="img-fluid d-block">
                         <div class="ceo-portrait-overlay">
-                            <span class="badge bg-cyan-soft text-cyan border border-info rounded-pill px-3 py-1 mb-2 fw-semibold small">
+                            <!-- <span class="badge bg-cyan-soft text-cyan border border-info rounded-pill px-3 py-1 mb-2 fw-semibold small">
                                 <i class="fas fa-crown me-1"></i> {{ __('Leadership') }}
-                            </span>
+                            </span> -->
                             <h4 class="text-white fw-bold mb-1">{{ __('CEO Name') }}</h4>
                             <p class="text-white-50 small mb-0">{{ __('CEO Title') }}</p>
                         </div>
@@ -116,8 +116,19 @@
         </div>
         --}}
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4" id="mentor-grid">
-            @forelse($mentors as $mentor)
+        @php
+            $visibleMentors = collect($mentors)->reject(function ($m) {
+                $isTrashed = method_exists($m, 'trashed') && $m->trashed();
+                $hasDeletedAt = isset($m->deleted_at) && !empty($m->deleted_at);
+                return $isTrashed || $hasDeletedAt;
+            });
+        @endphp
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center" id="mentor-grid">
+            @forelse($visibleMentors as $mentor)
+            @if((method_exists($mentor, 'trashed') && $mentor->trashed()) || (!empty($mentor->deleted_at)))
+                @continue
+            @endif
             @php
                 $role = strtolower($mentor->role);
                 $classes = '';
@@ -146,7 +157,11 @@
                         <p class="text-cyan small mb-3 text-uppercase letter-spacing-1 fw-bold" style="font-size: 0.75rem;">{{ $mentor->role }}</p>
                         <div class="divider-small mx-auto mb-3"></div>
                         <div class="d-flex flex-wrap justify-content-center gap-1">
-                            @if(str_contains($classes, 'game'))
+                            @if(!empty($mentor->skills))
+                                @foreach(array_filter(array_map('trim', explode(',', $mentor->skills))) as $skill)
+                                    <span class="skill-badge">{{ $skill }}</span>
+                                @endforeach
+                            @elseif(str_contains($classes, 'game'))
                                 <span class="skill-badge">Unity</span> <span class="skill-badge">C#</span>
                             @elseif(str_contains($classes, 'programming'))
                                 <span class="skill-badge">Python</span> <span class="skill-badge">Web</span>
@@ -200,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const filterBtns = document.querySelectorAll('.filter-btn');
     const mentorItems = document.querySelectorAll('.mentor-item');
     const noMsg = document.getElementById('no-mentor-msg');
-
+    
     filterBtns.forEach(btn => {
         btn.addEventListener('click', function() {
             // 1. Ganti Warna Tombol Aktif

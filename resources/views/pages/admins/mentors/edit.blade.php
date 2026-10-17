@@ -43,6 +43,20 @@
                     </div>
                 </div>
 
+                <div class="mb-3">
+                    <label class="text-white-50 small mb-2">Skill Badges (Keahlian)</label>
+                    <input type="text" name="skills"
+                           class="form-control form-control-dark @error('skills') is-invalid @enderror"
+                           value="{{ old('skills', $mentor->skills) }}"
+                           placeholder="Contoh: Python, Web, IoT (pisahkan dengan koma)">
+                    <div class="text-white-50 small fst-italic mt-1">
+                        <i class="fas fa-info-circle me-1"></i> Pisahkan setiap skill dengan tanda koma (,). Akan ditampilkan sebagai badge di halaman Family.
+                    </div>
+                    @error('skills')
+                        <div class="invalid-feedback text-danger small mt-1">{{ $message }}</div>
+                    @enderror
+                </div>
+
                 <div class="mb-4">
                     <label class="text-white-50 small mb-2">Foto Profil</label>
 

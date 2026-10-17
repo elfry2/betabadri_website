@@ -25,6 +25,7 @@ class MentorController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'role' => 'required|string|max:255',
+            'skills' => 'nullable|string|max:500',
             'image' => 'required|image|mimes:jpeg,png,jpg|max:2048',
         ]);
 
@@ -33,6 +34,7 @@ class MentorController extends Controller
         Mentor::create([
             'name' => $request->name,
             'role' => $request->role,
+            'skills' => $request->skills,
             'image' => $imagePath,
             // Hapus description & sosmed dari sini
         ]);
@@ -50,12 +52,14 @@ class MentorController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'role' => 'required|string|max:255',
+            'skills' => 'nullable|string|max:500',
             'image' => 'nullable|image|mimes:jpeg,png,jpg|max:2048',
         ]);
 
         $data = [
             'name' => $request->name,
             'role' => $request->role,
+            'skills' => $request->skills,
             // Hapus description & sosmed dari sini
         ];
 
